@@ -1,6 +1,5 @@
 - name: install apache Maven
   hosts: ubuntu1
-  become: true
 
   tasks:
   - name: Update ubuntu os package
